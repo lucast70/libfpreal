@@ -52,6 +52,8 @@ Two member functions **getString()** and **getDouble()** are also available.
 
 Assignments and operations throw exceptions for strings containing invalid numbers and overflow/underflow. 
 
+You must include fprealxx.h. C language bindings are also available in fpreal.h.
+
 **Limitations**
 
 The maximum supported number of digits after the decimal points, is 9. The range depends on the native type used, int128 or long long, and the number of digits after the decimal point.
