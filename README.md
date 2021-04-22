@@ -50,6 +50,8 @@ There are overload operators for **=,+,-,*,/,++,--,*=,/= and comparisons**.
 
 Two member functions **getString()** and **getDouble()** are also available.
 
+**get()** is a wrapper over **getString()** and **getDouble()**.
+
 Assignments and operations throw exceptions for strings containing invalid numbers and overflow/underflow. 
 
 You must include fprealxx.h. C language bindings are also available in fpreal.h.
