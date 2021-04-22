@@ -1,0 +1,12 @@
+objects=$(OBJSDIR)/$(wildcard *.o)
+
+all: libopensort
+
+libopensort:
+	@echo "================================="
+	@echo "Linking "$(LIBNAME).a 
+	@echo "================================="
+	$(AR) $(ARFLAGS) $(LIBNAME).a *.o
+	mv lib*.a ../lib
+clean:
+	rm -f *.o
