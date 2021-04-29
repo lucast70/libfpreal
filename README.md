@@ -46,7 +46,7 @@ You can even assign values from strings. For example:
 
 is valid. 
 
-There are overload operators for **=,+,-,*,/,++,--,*=,/= and comparisons**.
+There are overload operators for **=,+,-,\*,/,++,--,\*=,/=** and comparisons.
 
 Two member functions **getString()** and **getDouble()** are also available.
 

@@ -21,8 +21,7 @@ main ()
   
   // assign from float
   E = 91.789f;
-  
-  
+    
   // auto F = E + 0.001;
   
   // this works fine
@@ -30,8 +29,7 @@ main ()
   
   // this doesn't work
   // std::cout << F << std::endl;
-  
-    
+      
   // add 
   A = B + C + D + f; 
     
