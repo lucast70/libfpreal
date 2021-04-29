@@ -41,8 +41,8 @@ main ()
   A = D - B + f - C;
   
   std::cout 
-    << "A = " << D.get () << " - " << B.get () << " - " << f 
-    << " + " << C.get () << " = " << A.getString () << std::endl;
+    << "A = " << D.get () << " - " << B.get () << " + " << f 
+    << " - " << C.get () << " = " << A.getString () << std::endl;
     
   // mul
   A = D * D;
